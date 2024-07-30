@@ -1,27 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
 /* font-family: "Inter", sans-serif; */
+/* font-family: "Dancing Script", cursive; */
+
 .font-inter{
   font-family: "Inter", sans-serif;
+}
+.font-italic{
+  font-family: "Dancing Script", cursive;
+  font-weight: lighter;
 }
 *{
   padding: 0;
   margin: 0;
-  background-color: black;
   color: white;
 }
+body{
+  background-color: black;
+}
 p{
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
+  margin: 30px 0;
+  
+}
+span{
+  color:rgba(255, 255, 255, 0.5);
+}
+button{
+  background-color: rgb(230, 83, 60);
+  font-weight: 600;
+  border-radius: 39px;
+  border: none;
+  padding: 10px 30px;
+}
+.container, header{
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* Nav styles  */
 .navbar{
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 10px 0;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* border: 2px solid white; */
+}
+.nav-item{
+  flex: 1;
+  justify-content: space-between;
 }
 .navbar .title em{
  color: rgb(230, 83, 60);
@@ -29,26 +55,100 @@ p{
 font-weight: 800;
 cursor: pointer;
 }
+.bar{
+  display: none;
+}
 .navbar ul{
   display: flex;
-  gap: 50px; 
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
-  padding: 8px 5px;
+  padding: 8px;
 }
 .navbar ul li{
   list-style: none;
   border-radius: 39px;
-  font-size: 1rem;
-font-weight: 600;
+  font-weight: 600;
 }
 .navbar ul li :hover , .active{
   background-color: rgb(230, 83, 60);
   border-radius: 39px;
   border: none;
-  padding: 5px 8px;
+  padding: 5px 20px;
 }
 .navbar ul li a{
   text-decoration: none;
 }
 
+
+/* Banner Styles  */
+.banner-content{
+  margin: 30px 0;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content>div{
+  flex: 1;
+}
+.banner-text h1{
+  font-size: 4.8rem;
+}
+
+.banner-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.banner-btn button {
+  cursor: pointer;
+}
+#download-btn{
+  margin-left: 10px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.circle{
+  font-size: 40px;
+}
+.banner-img-sticker1{
+  height: 5rem;
+  width: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgb(48, 48, 48, 0.54);
+  position: absolute;
+  bottom: 5rem;
+  left: 0;
+}
+#tutorial h4{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.banner-img-sticker2{
+  height: 5rem;
+  width: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgb(48, 48, 48, 0.54);
+  position: absolute;
+  top: 8rem;
+  right: 2.5rem;
+}
+#video h3{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 900;
+}

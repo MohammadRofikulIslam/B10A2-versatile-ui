@@ -1,0 +1,63 @@
+
+/* Mobile Responsive  */
+
+@media screen and (max-width: 576px) {
+  body{
+    width:93%;
+    margin: 0 auto;
+    
+  }
+  .navbar ul{
+    display: none;
+  }
+  .bar{
+    display: block;
+    font-size: 25px;
+  }
+
+  .banner-text h1{
+    font-size: 3.8rem;
+  }
+  .banner-content{
+    flex-direction: column;
+  }
+  .banner-img{
+    display: flex;
+    justify-content: center;
+  }
+  .banner-img> div{
+    width: 180px;
+    
+  }
+  .banner-img-sticker1{
+    bottom: 5rem;
+    left: 0;
+  }
+  .banner-img-sticker2{
+    top: 12rem;
+    right: 0;
+  }
+}
+
+
+
+
+
+
+/* Tablet Responsive  */
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+  
+  body{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .banner-content{
+    flex-direction: column;
+  }
+  .banner-img-sticker2{
+    top: 12rem;
+    right: 0;
+  }
+
+}
