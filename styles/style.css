@@ -13,3 +13,42 @@ p{
   color: rgba(255, 255, 255, 0.5)
 }
 
+/* Nav styles  */
+.navbar{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+.navbar .title em{
+ color: rgb(230, 83, 60);
+ font-size: 2rem;
+font-weight: 800;
+cursor: pointer;
+}
+.navbar ul{
+  display: flex;
+  gap: 50px; 
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 8px 5px;
+}
+.navbar ul li{
+  list-style: none;
+  border-radius: 39px;
+  font-size: 1rem;
+font-weight: 600;
+}
+.navbar ul li :hover , .active{
+  background-color: rgb(230, 83, 60);
+  border-radius: 39px;
+  border: none;
+  padding: 5px 8px;
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+
