@@ -7,6 +7,9 @@
     margin: 0 auto;
     
   }
+  h3{
+    font-size: 2rem;
+  }
   .navbar ul{
     display: none;
   }
@@ -37,6 +40,13 @@
     top: 12rem;
     right: 0;
   }
+  .habit-section{
+    width: auto;
+  }
+  .habit-card-container{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
@@ -59,5 +69,13 @@
     top: 12rem;
     right: 0;
   }
-
+  .habit-section{
+    width: 70%;
+  }
+  .habit-card-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
