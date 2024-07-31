@@ -23,6 +23,7 @@
   }
   .banner-content{
     flex-direction: column;
+    margin: 30px auto;
   }
   .banner-img{
     display: flex;
@@ -47,6 +48,17 @@
     flex-direction: column;
     align-items: center;
   }
+  .run-extra-mile-container{
+    flex-direction: column;
+    margin: 0;
+  }
+  .run-text, .run-img{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .run-text button{
+    width: 100%;
+  }
 }
 
 
@@ -64,6 +76,7 @@
   }
   .banner-content{
     flex-direction: column;
+    margin: 40px auto;
   }
   .banner-img-sticker2{
     top: 12rem;
