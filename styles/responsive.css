@@ -59,6 +59,16 @@
   .run-text button{
     width: 100%;
   }
+  .training-text{
+    width: 100%;
+  }
+  .grid-container-1, .grid-container-2{
+    
+    grid-template-columns: 1fr 1fr;
+  }
+  .hidden-img{
+    display: none;
+  }
 }
 
 
