@@ -306,7 +306,7 @@ margin: 20px 0;
 .bmi-chart th, .bmi-chart td {
   padding: 12px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .bmi-chart th {
@@ -346,7 +346,40 @@ input{
   padding: 10px 50px;
 }
 
+/* Meet Our Team Styles  */
+.team-heading{
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.team-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgb(34, 34, 34);
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 18px;
+}
+.team-card img{
+   height: 270px;
+   width: 320px;
+   border-radius: 18px;
+   filter: brightness(60%);
+   
+   
+}
+.team-card{
+  position: relative;
+  
+}
 
-
-
-
+.trainer{
+position: absolute;
+bottom: 10px;
+left: 20px;
+}
+.title{
+  margin: 5px 0;
+}
