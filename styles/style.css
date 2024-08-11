@@ -191,7 +191,7 @@ margin: 20px 0;
 /* Run Extra Mile Styles */
 .run-extra-mile-container{
   background-color: rgb(34, 34, 34);
-  padding: 20px 0;
+  padding: 20px 0px;
   display: flex;
   justify-content: space-around;
   border-radius: 18px;
@@ -273,5 +273,80 @@ margin: 20px 0;
   align-items: flex-end; 
   padding-left: 5px;
 }
+
+/* BMI Calculator Styles  */
+
+.bmi-heading{
+  width: 45%;
+  margin: 0 auto;
+}
+.bmi-calculator-content{
+  max-width: 100%;
+  margin-bottom: 50px;
+  background: rgb(34, 34, 34);
+  padding: 20px 0px;
+}
+
+.bmi-content{
+  display: flex;
+
+  
+}
+.bmi-content> div{
+  flex: 1;
+}
+
+
+.bmi-chart {
+  margin-top: 50px;
+  border-collapse: collapse;
+  
+}
+
+.bmi-chart th, .bmi-chart td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.bmi-chart th {
+  
+  color: white;
+  font-weight: bold;
+}
+tr, td{
+  color:  rgba(255, 255, 255, 0.5);
+
+}
+
+#select-1{
+  width: 150px;
+  color: rgba(255, 255, 255, 0.3);
+}
+#select-2{
+  width: 325px;
+  color:rgba(255, 255, 255, 0.3);
+}
+input, #select-1, #select-2{
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+option{
+  background-color: black;
+  color: white;
+}
+input{
+  width: 130px;
+}
+#calculate-btn{
+  margin: 20px 10px;
+  padding: 10px 50px;
+}
+
+
+
 
 

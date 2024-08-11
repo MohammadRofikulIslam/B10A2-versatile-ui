@@ -51,6 +51,7 @@
   .run-extra-mile-container{
     flex-direction: column;
     margin: 0;
+    padding: 10px;
   }
   .run-text, .run-img{
     width: 100%;
@@ -69,6 +70,30 @@
   .hidden-img{
     display: none;
   }
+  .bmi-heading{
+    width: 100%;
+  }
+  .bmi-content{
+    flex-direction: column;
+    margin: 20px 0;
+    
+  }
+  .bmi-chart-content{
+   margin-left: 20px;
+  }
+  .your-bmi{
+    margin-top: 30px;
+    
+  }
+  #your-bmi-heading{
+    margin-left: 20px;
+  }
+  input, #select-1, #select-2{
+    margin: 10px ;
+  }
+  .your-bmi-inputs{
+    margin-left: 2px;
+  }
 }
 
 
@@ -78,7 +103,7 @@
 
 /* Tablet Responsive  */
 
-@media screen and (min-width: 577px) and (max-width: 992px){
+@media screen and (min-width: 577px) and (max-width: 1050px){
   
   body{
     width: 95%;
@@ -100,5 +125,21 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+  }
+  .bmi-heading{
+    width: 80%;
+    margin: 0;
+  }
+  .bmi-chart-content, .your-bmi{
+    margin: 0 50px ;
+   }
+   .your-bmi{
+    margin-top: 30px;
+    
+  }
+   .bmi-content{
+    flex-direction: column;
+    margin: 20px 0;
+    
   }
 }
