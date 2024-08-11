@@ -62,7 +62,7 @@ button{
   flex: 1;
   justify-content: space-between;
 }
-.navbar .title em{
+.title em{
  color: rgb(230, 83, 60);
  font-size: 2rem;
 font-weight: 800;
@@ -400,4 +400,35 @@ left: 20px;
   padding: 20px;
 
 }
+/* Footer Styles  */
+footer{
+  background-color: rgb(34, 34, 34);
+  padding: 20px 0;
+}
+.footer-container{
+  margin: 0 auto;
+  display: flex;
+}
 
+.footer-container>div{
+  
+  justify-content: space-between;
+}
+.footer-col-1{
+  width: 40%;
+}
+.footer-col-2{
+  width: 40%;
+  display: flex;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+
+
+hr{
+  margin: 20px 180px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copyright{
+  text-align: center;
+}

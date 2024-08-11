@@ -94,6 +94,9 @@
   .your-bmi-inputs{
     margin-left: 2px;
   }
+  .team-heading{
+    width: 100%;
+  }
   .team-card-container{
     grid-template-columns: repeat(1, 1fr);
     padding: 20px 0;
@@ -102,6 +105,20 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     align-items: center;
+  }
+  footer{
+    padding: 10px;
+  }
+  .footer-container{
+    flex-direction: column;
+   }
+   .footer-col-2, .footer-col-1{
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+   }
+   hr{
+    margin: 0px;
   }
 }
 
@@ -154,7 +171,18 @@
     height: 170px;
     width: 220px;
   }
-  .team-card-container{
-    padding: 20px 10px;
+  footer{
+    padding: 20px;
+  }
+  .footer-container{
+   flex-direction: column;
+   /* width: auto; */
+  }
+  .footer-col-2{
+    margin: 0;
+    width: 60%;
+  }
+  hr{
+    margin: 0px;
   }
 }
